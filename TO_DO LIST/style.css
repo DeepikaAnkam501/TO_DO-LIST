@@ -1,0 +1,70 @@
+ body {
+      font-family: Arial, sans-serif;
+      background-image: url(./view-arrangement-with-keyboard-notebooks.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: none;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px white;
+      width: 300px;
+      margin-left: 300px;
+      margin-top: -100px;
+    }
+    h2 {
+      text-align: center;
+      color:gray;
+    }
+    input {
+      width: 70%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      padding: 8px 12px;
+      background: green;
+      border: none;
+      color: white;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 1px solid white;
+    }
+    button:hover {
+      background: darkgreen;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+    li {
+      background: #f9f9f9;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    li.completed {
+      text-decoration: line-through;
+      color: gray;
+    }
+    .delete {
+      background: red;
+      border: none;
+      color: white;
+      padding: 5px 8px;
+      border-radius:50%;
+      cursor: pointer;
+      border:1px solid white;
+    }
+    .delete:hover {
+      background: darkred;
+    }
